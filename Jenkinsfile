@@ -43,5 +43,11 @@ def mvnHome
          sh "date"
    
 	}
+	
+	stage('test_date2') 
+	{
+         sh "date"
+   
+	}
 
 }
