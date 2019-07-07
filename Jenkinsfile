@@ -37,5 +37,11 @@ def mvnHome
       archive 'target/*.jar'
    
 	}
+	
+	stage('test_date') 
+	{
+         sh "date"
+   
+	}
 
 }
